@@ -1,3 +1,7 @@
+html * {
+  border: 1px solid red;
+}
+
 .logo {
   border: solid red;
   display:  flex;
@@ -33,4 +37,45 @@ h1 h2 {
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.recipecard {
+  display: flex;
+  position: relative;
+  margin-top: -24%;
+  height: 13rem;
+
+}
+
+#list1 label {
+  position: relative;
+  display: flex;
+  margin: 0x 0px 25px 50px;
+}
+
+#list1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#list2 label {
+  display: flex;
+  justify-content: space-between;
+}
+
+#list2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+#list input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+a {
+  color: peachpuff;
 }
